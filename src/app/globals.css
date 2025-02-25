@@ -18,6 +18,30 @@ body {
   margin: 0;
 }
 
+h1 {
+  color: rgb(5 46 22);
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: rgb(5 46 22);
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

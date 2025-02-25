@@ -70,7 +70,7 @@ export default async function User({ params }: UserIdProps) {
       </CardContent>
       <CardFooter className="p-4 border-t ">
         <Link
-          href="/"
+          href="/user"
           className="text-grey font-extralight text-xs hover:underline"
         >
           {"<<<<"}Назад

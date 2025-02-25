@@ -26,10 +26,28 @@ export const Header = () => {
             Главная
           </Link>
           <Link
+            href="/user"
+            className="hover:underline hover:cursor-pointer duration-1000 ease-in-out"
+          >
+            Users
+          </Link>
+          <Link
+            href="/posts"
+            className="hover:underline hover:cursor-pointer duration-1000 ease-in-out"
+          >
+            Posts
+          </Link>
+          <Link
+            href="/images"
+            className="hover:underline hover:cursor-pointer duration-1000 ease-in-out"
+          >
+            Images
+          </Link>
+          <Link
             href="/about"
             className="hover:underline hover:cursor-pointer duration-1000 ease-in-out"
           >
-            About
+            Contacts
           </Link>
         </nav>
       </div>
